@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 provider "aws" {
   region = var.region
 }
@@ -13,4 +10,3 @@ resource "aws_instance" "ec2" {
     name = "Terraform-Variable"
   }
 }
->>>>>>> 247ea6a (Variables Learnings with practice)

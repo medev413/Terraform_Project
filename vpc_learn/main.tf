@@ -233,6 +233,5 @@ resource "aws_lb_target_group_attachment" "alb-tg-attach-1A" {
 resource "aws_lb_target_group_attachment" "alb-tg-attach-1B" {
   target_group_arn = aws_lb_target_group.alb-tg.arn
   target_id = aws_instance.EC2-Private-1B.id
-  port = "80"
+  port = "8082"
 }
-
